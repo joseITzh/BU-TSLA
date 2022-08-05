@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Mulish&family=Work+Sans:wght@300&display=swap');
+
+.htmlElements {
+    padding: 1em;
+}
+
+table {
+    border-collapse: collapse;
+    width: 95%;
+    margin: auto;
+    margin-top: 6em;
+}
+
+th,
+td {
+    border: 1px solid #ffffff;
+    text-align: center;
+    padding: 6.5px;
+    font-family: 'Mulish';
+}
+
+th {
+    background-color: #f7f6f6;
+    color: #011936FF;
+}
+
+td {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.createTicketbutton {
+    font-family: 'Work Sans';
+    background-color: #ED254EfF;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    width: 150px;
+    padding: 0.8em;
+    margin-top: 4em;
+    margin-left: 3%;
+}
+
+.deleteTicketbutton {
+    font-family: 'Work Sans';
+    background-color: #ED254EfF;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    width: 65px;
+    padding: 0.8em;
+    margin-right: 0.8em;
+}
+
+.createTicketbutton:hover,
+.deleteTicketbutton:hover {
+    background-color: #A2A2A1FF;
+    transition: 0.7s;
+}

@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Mulish&family=Work+Sans:wght@300&display=swap');
+
+h1 {
+    text-align: center;
+    color: #011936FF;
+    margin-bottom: 1em;
+    margin-top: -1em;
+}
+
+.container {
+    width: 800px;
+    height: 900px;
+    margin: auto;
+    margin-top: 1.5em;
+    outline: solid 1px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #f7f6f6;
+}
+
+form {
+    font-family: 'Mulish';
+}
+
+textarea {
+    width: 450px;
+    height: 100px;
+    resize: none;
+    border-radius: 6px;
+}
+
+select {
+    height: 30px;
+    width: 130px;
+    border-radius: 6px;
+}
+
+.form_divs {
+    padding: 0.5em;
+}
+
+.addTicketbutton {
+    font-family: 'Work Sans';
+    background-color: #ED254EfF;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    width: 130px;
+    padding: 0.8em;
+    margin-left: 33px;
+}
+
+.ticketDashboardbutton {
+    font-family: 'Work Sans';
+    background-color: #ED254EfF;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    width: 130px;
+    padding: 0.8em;
+    margin-left: 33px;
+}
+
+.ticketDashboardbutton:hover,
+.addTicketbutton:hover {
+    background-color: #A2A2A1FF;
+    transition: 0.7s;
+}
+
+input {
+    width: 450px;
+    height: 20px;
+    border-radius: 6px;
+}
